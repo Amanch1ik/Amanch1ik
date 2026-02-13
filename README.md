@@ -1,39 +1,68 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:E8915A,100:D4764E&height=220&section=header&text=Amanchik&fontColor=ffffff&fontSize=70&fontAlignY=35&desc=Full-Stack%20Developer%20%7C%20Bishkek%20🇰🇬&descSize=20&descAlignY=55&animation=fadeIn" width="100%" />
+
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&pause=1000&color=E8915A&center=true&vCenter=true&random=false&width=600&height=70&lines=Hi+%F0%9F%91%8B%2C+I'm+Amanchik;Full-Stack+Developer;From+Bishkek+%F0%9F%87%B0%F0%9F%87%AC" alt="Typing SVG" />
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=E8915A&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=500&height=55&lines=Building+scalable+apps+%F0%9F%9A%80;AI+%7C+Backend+%7C+Full-Stack+%F0%9F%94%A5;1%2C084%2B+contributions+this+year+%F0%9F%92%AA)](https://github.com/Amanch1ik)
 
-<br/>
+</div>
 
-<img src="https://komarev.com/ghpvc/?username=Amanch1ik&label=Profile%20Views&color=E8915A&style=for-the-badge" alt="Profile Views" />
-
+<!-- STATS RIGHT AWAY -->
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Amanch1ik&show_icons=true&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9&ring_color=E8915A&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Amanch1ik&hide_border=true&background=0D1117&ring=E8915A&fire=E8915A&currStreakLabel=E8915A&sideLabels=C9D1D9&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9" alt="GitHub Streak" />
 </div>
 
 ---
 
-## 🧑‍💻 About Me
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧑‍💻 About Me
 
 ```yaml
 name: Amanchik
 location: Bishkek, Kyrgyzstan 🇰🇬
 role: Full-Stack Developer
+
+currently: 🔭 Delivery & Fintech projects
+  🌱 Exploring Go, NestJS, TensorFlow.js
+  ⚡ 1,084+ contributions this year
+  🎯 59 pull requests opened
+
 interests:
-  - Building scalable web & mobile applications
+  - Scalable web & mobile apps
   - AI/ML & Computer Vision
-  - Backend architecture & microservices
-currently:
-  - 🔭 Working on delivery & fintech projects
-  - 🌱 Exploring Go, NestJS & TensorFlow.js
-  - ⚡ Solving problems on LeetCode
+  - Backend architecture
+  - Microservices
 ```
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-E8915A?style=for-the-badge&logoColor=white)](https://amanch1ik.github.io/Partfolio_Amanchik/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-E8915A?style=for-the-badge)](https://amanch1ik.github.io/Partfolio_Amanchik/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Amanch1ik/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/amanch1ik_/)
+[![Instagram](https://img.shields.io/badge/@amanch1ik__-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/amanch1ik_/)
 
 </div>
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Top Languages
+
+<div align="center">
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amanch1ik&layout=donut-vertical&hide_border=true&bg_color=0D1117&title_color=E8915A&text_color=C9D1D9&langs_count=8" alt="Top Languages" />
+</div>
+
+### 🏆 Trophies
+
+<div align="center">
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=Amanch1ik&theme=darkhub&no-frame=true&no-bg=true&column=3&margin-w=10&margin-h=10" alt="Trophies" />
+</div>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -41,55 +70,29 @@ currently:
 
 <div align="center">
 
-### Languages
+<img src="https://skillicons.dev/icons?i=python,js,ts,go,php&theme=dark" alt="Languages" /><br/>
+<sub><b>Languages</b></sub>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+<br/><br/>
 
-### Frontend
+<img src="https://skillicons.dev/icons?i=react,html,css,vite,nextjs&theme=dark" alt="Frontend" /><br/>
+<sub><b>Frontend</b></sub>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+<br/><br/>
 
-### Backend & Frameworks
+<img src="https://skillicons.dev/icons?i=nestjs,nodejs,django,symfony,flask&theme=dark" alt="Backend" /><br/>
+<sub><b>Backend & Frameworks</b></sub>
 
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+<br/><br/>
 
-### AI / ML
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch&theme=dark" alt="AI/ML" />
+<img src="https://go-skill-icons.vercel.app/api/icons?i=jupyter" alt="Jupyter" /><br/>
+<sub><b>AI / ML</b></sub>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+<br/><br/>
 
-### Tools & Infra
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Amanch1ik&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=Amanch1ik&theme=tokyonight&hide_border=true&background=0D1117&ring=E8915A&fire=E8915A&currStreakLabel=E8915A&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
-
-<br/>
-
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&text_color=C9D1D9" alt="Top Languages" />
+<img src="https://skillicons.dev/icons?i=docker,git,github,postgres,linux,redis&theme=dark" alt="Tools" /><br/>
+<sub><b>DevOps & Tools</b></sub>
 
 </div>
 
@@ -99,10 +102,18 @@ currently:
 
 <div align="center">
 
-[![Face Emotion Detection](https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=face-emotion-detection-service&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9)](https://github.com/Amanch1ik/face-emotion-detection-service)
-[![Yess-Go-App Backend](https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Yess-Go-App-Backend&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9)](https://github.com/Amanch1ik/Yess-Go-App-Backend)
-[![Karakol Delivery](https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Karakol-delivery-APP&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9)](https://github.com/Amanch1ik/Karakol-delivery-APP)
-[![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Partfolio_Amanchik&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9)](https://github.com/Amanch1ik/Partfolio_Amanchik)
+<a href="https://github.com/Amanch1ik/face-emotion-detection-service">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=face-emotion-detection-service&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9&description_lines_count=2" />
+</a>
+<a href="https://github.com/Amanch1ik/Yess-Go-App-Backend">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Yess-Go-App-Backend&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9&description_lines_count=2" />
+</a>
+<a href="https://github.com/Amanch1ik/Karakol-delivery-APP">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Karakol-delivery-APP&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9&description_lines_count=2" />
+</a>
+<a href="https://github.com/Amanch1ik/Partfolio_Amanchik">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Amanch1ik&repo=Partfolio_Amanchik&hide_border=true&bg_color=0D1117&title_color=E8915A&icon_color=E8915A&text_color=C9D1D9&description_lines_count=2" />
+</a>
 
 </div>
 
@@ -112,7 +123,7 @@ currently:
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Amanch1ik&bg_color=0D1117&color=C9D1D9&line=E8915A&point=E8915A&area=true&area_color=E8915A&hide_border=true)](https://github.com/Amanch1ik)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Amanch1ik&bg_color=0D1117&color=C9D1D9&line=E8915A&point=E8915A&area=true&area_color=E8915A&hide_border=true&custom_title=Contribution%20Graph)](https://github.com/Amanch1ik)
 
 </div>
 
@@ -134,7 +145,7 @@ currently:
 
 <div align="center">
 
-### 💬 Let's Connect!
+### 💬 Let's Connect
 
 <a href="https://amanch1ik.github.io/Partfolio_Amanchik/">
   <img src="https://img.shields.io/badge/Portfolio-E8915A?style=for-the-badge&logoColor=white" alt="Portfolio"/>
@@ -151,6 +162,8 @@ currently:
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E8915A&height=100&section=footer" width="100%" />
+<img src="https://komarev.com/ghpvc/?username=Amanch1ik&label=Profile%20Views&color=E8915A&style=flat-square" alt="Profile Views" />
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:D4764E,50:E8915A,100:0D1117&height=120&section=footer" width="100%" />
