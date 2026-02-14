@@ -94,10 +94,6 @@
 
 <img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8" />
 
-<br/>
-
-<img width="700" src="https://github-profile-trophy.vercel.app/?username=Amanch1ik&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10&margin-h=10" />
-
 </div>
 
 ---
