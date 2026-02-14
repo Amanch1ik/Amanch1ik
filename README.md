@@ -14,22 +14,21 @@
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   ⚡  N A M E :     Amanchik                                    ║
-║   📍  L O C A T I O N :   Bishkek, Kyrgyzstan  🇰🇬              ║
-║   💼  R O L E :     Full-Stack Developer                        ║
-║                                                                  ║
-║   🔭  Working on Delivery & Fintech projects                    ║
-║   🌱  Exploring NestJS, TensorFlow.js, C++                     ║
-║   ⚡  1,090+ contributions  •  60 PRs this year                 ║
-║   🎯  Passionate about AI, Microservices & Clean Code           ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+<img src="https://img.shields.io/badge/⚡_Amanchik-4FC3F7?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/📍_Bishkek,_Kyrgyzstan_🇰🇬-B0BEC5?style=for-the-badge&labelColor=0D1117" />
+<img src="https://img.shields.io/badge/💼_Full--Stack_Developer-4FC3F7?style=for-the-badge&labelColor=0D1117" />
 
-<br/>
+</div>
+
+> 🔭 Working on **Delivery & Fintech** projects
+>
+> 🌱 Exploring **NestJS**, **TensorFlow.js**, **C++**
+>
+> ⚡ **1,090+** contributions • **60** PRs this year
+>
+> 🎯 Passionate about **AI**, **Microservices** & **Clean Code**
+
+<div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0f3460?style=for-the-badge&logoColor=white)](https://amanch1ik.github.io/Partfolio_Amanchik/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-0f3460?style=for-the-badge&logo=leetcode&logoColor=4FC3F7)](https://leetcode.com/u/Amanch1ik/)
