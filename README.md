@@ -46,7 +46,7 @@
 
 <div align="center">
 
-<img width="390" src="https://github-readme-stats.vercel.app/api?username=Amanch1ik&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4FC3F7&icon_color=4FC3F7&text_color=B0BEC5&ring_color=4FC3F7&include_all_commits=true&count_private=true" />
+<img width="390" src="https://github-readme-stats-sigma-five.vercel.app/api?username=Amanch1ik&show_icons=true&hide_border=true&bg_color=0D1117&title_color=4FC3F7&icon_color=4FC3F7&text_color=B0BEC5&ring_color=4FC3F7&include_all_commits=true&count_private=true" />
 <img width="390" src="https://github-readme-streak-stats.herokuapp.com?user=Amanch1ik&hide_border=true&background=0D1117&ring=4FC3F7&fire=4FC3F7&currStreakLabel=4FC3F7&sideLabels=B0BEC5&dates=546E7A&currStreakNum=B0BEC5&sideNums=B0BEC5" />
 
 </div>
@@ -92,7 +92,7 @@
 
 ### 📊 Analytics
 
-<img width="350" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Amanch1ik&layout=donut-vertical&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8" />
+<img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8" />
 
 <br/>
 
