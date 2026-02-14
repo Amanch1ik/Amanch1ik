@@ -92,7 +92,7 @@
 
 ### 📊 Analytics
 
-<img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8" />
+<img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8&exclude_repo=awesome-python,awesome-jupyter,python-guide,python-interview-questions,project-based-learning,interactive-coding-challenges,fucking-awesome-python,book,symfony" />
 
 </div>
 
