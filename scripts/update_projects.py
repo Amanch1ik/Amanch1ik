@@ -171,7 +171,7 @@ CONTRIB_ICON = (
     "&logo=git&logoColor=4FC3F7&labelColor=0D1117"
 )
 
-MAX_STACK_ITEMS = 5
+MAX_STACK_ITEMS = 4
 
 
 # ────────────────────────── HTTP ──────────────────────────
@@ -382,7 +382,7 @@ def render_section(projects: list[dict]) -> str:
             if len(pair) == 1:
                 cells += '\n<td width="50%"></td>'
             rows.append(f"<tr>\n{cells}\n</tr>")
-        body = '<table>\n' + "\n".join(rows) + '\n</table>'
+        body = '<table width="100%">\n' + "\n".join(rows) + '\n</table>'
     return f"{START_MARKER}\n\n{body}\n\n{END_MARKER}"
 
 
