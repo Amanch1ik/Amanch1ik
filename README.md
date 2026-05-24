@@ -88,6 +88,354 @@
 
 ---
 
+<!-- ═══════════════════ FEATURED PROJECTS ═══════════════════ -->
+
+<div align="center">
+
+## 🚀 Избранные Проекты
+
+<sub>Автоматически собирается из <code>projects.yml</code> · обновляется ежедневно</sub>
+
+</div>
+
+<br/>
+
+<!-- PROJECTS:START -->
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" /> <img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### Course Platform
+
+**EdTech · Contributor · 2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Aiden Voice Assistant
+
+**AI / Voice Assistant · Author · 2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### MMORPG Telegram Bot
+
+**Game / Telegram · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/aiogram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="aiogram" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Reklama AI Generator
+
+**AI / SaaS · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Face Emotion Detection
+
+**AI / Computer Vision · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### SilkRoute AI Agent
+
+**AI / Agents · Author · 2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Yess!Go Backend
+
+**Mobility / Backend · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Yess!Go Web App
+
+**Mobility / Frontend · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" /> <img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### Yess!Go Mobile App
+
+**Mobility / Mobile · Contributor · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React%20Native-30363D?style=for-the-badge" alt="React Native" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### Yess.MauiApp
+
+**Mobility / Mobile · Contributor · 2025**
+
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" /> <img src="https://img.shields.io/badge/MAUI-30363D?style=for-the-badge" alt="MAUI" /> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+
+<a href="https://github.com/inspireVictim/YESS.MauiApp" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### Yess-go-v2
+
+**Mobility / Backend · Contributor · 2025**
+
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
+
+<a href="https://github.com/inspireVictim/Yess-go-v2" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" /> <img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### PrimeTech Admin Panel
+
+**Admin Panel · Contributor · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" /> <img src="https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" />
+
+### PrimeTech User Web
+
+**Web App · Contributor · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Ads Launcher
+
+**Marketing Tools · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### Automation & Attendance Scripts
+
+**Automation / Telegram · Author · 2025-2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### Partfolio_Amanchik
+
+**Project · Author · 2026**
+
+Премиальное высокопроизводительное портфолио с минималистичным дизайном, плавной анимацией и мультиязычной поддержкой (RU/EN).
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+
+<a href="https://github.com/Amanch1ik/Partfolio_Amanchik" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### web-version-YES-GO
+
+**TypeScript · Author · 2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### MMORPG
+
+**Python · Author · 2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" /> <img src="https://img.shields.io/badge/Cython-30363D?style=for-the-badge" alt="Cython" /> <img src="https://img.shields.io/badge/C-30363D?style=for-the-badge" alt="C" /> <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### Karakol-delivery-APP
+
+**Python · Author · 2025**
+
+delivery app for Karakol
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/C-30363D?style=for-the-badge" alt="C" />
+
+<a href="https://github.com/Amanch1ik/Karakol-delivery-APP" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### agents_analyze
+
+**Python · Author · 2026**
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" /> <img src="https://img.shields.io/badge/Batchfile-30363D?style=for-the-badge" alt="Batchfile" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### Tech-shop
+
+**C# · Author · 2026**
+
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/Batchfile-30363D?style=for-the-badge" alt="Batchfile" /> <img src="https://img.shields.io/badge/TSQL-30363D?style=for-the-badge" alt="TSQL" />
+
+<a href="https://github.com/Amanch1ik/Tech-shop" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### educonnect
+
+**TypeScript · Author · 2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+
+<a href="https://github.com/Amanch1ik/educonnect" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/Private-0D1117?style=for-the-badge&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" />
+
+### PANELS_YESS_GO_last
+
+**TypeScript · Author · 2026**
+
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Shell" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
+
+</div>
+
+<br/>
+
+<!-- PROJECTS:END -->
+
+---
+
 <!-- ═══════════════════ LANGUAGES & TROPHIES ═══════════════════ -->
 
 <div align="center">

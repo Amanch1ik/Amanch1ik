@@ -1,0 +1,168 @@
+# Override-конфиг для секции "Избранные Проекты" в README.
+#
+# exclude — репозитории, которые НЕ показывать в авто-сборе
+# manual  — проекты, которые скрипт сам найти не может: приватные / NDA /
+#           collaborator-проекты в чужих репозиториях. Для NDA-проектов
+#           НЕ пишите описание и НЕ ставьте ссылки на приватные репо —
+#           только имя, категория, стек, год, флаг private.
+
+exclude:
+  # учебные / дубликаты / черновики — чтобы не засоряли портфолио
+  - KD-app
+  - Karakol-deliveryVN
+  - Karakol-delivery-backend-02
+  - empty-repooo
+  - empty_repo
+  - empty_repo02
+  - empty_repo05
+  - empty_repoosit
+  - number-finder
+  - Love-Me-Valentine
+  - valentinka
+  - otkrytka_8th_march
+  - degrees-of-separation
+  - openclaw_proj
+  - zadanie_garderob
+  - CountRealPrice
+  - scripts_inst
+  - web_tech_tusk
+  - ayap-doklad
+  - avtoshkola
+  - ClinicDB
+  - ARM---med-proj
+
+manual:
+  # ───────── Top: чужой приватный (collaborator, NDA) ─────────
+  - name: Course Platform
+    role: Contributor
+    category: EdTech
+    period: "2026"
+    stack: [TypeScript, NestJS, React, PostgreSQL]
+    priority: 1000
+    private: true
+    contributor: true
+
+  # ───────── Собственные приватные ─────────
+  - name: Aiden Voice Assistant
+    role: Author
+    category: AI / Voice Assistant
+    period: "2026"
+    stack: [Python, FastAPI, TypeScript, React]
+    priority: 960
+    private: true
+
+  - name: MMORPG Telegram Bot
+    role: Author
+    category: Game / Telegram
+    period: "2025-2026"
+    stack: [Python, aiogram]
+    priority: 920
+    private: true
+
+  - name: Reklama AI Generator
+    role: Author
+    category: AI / SaaS
+    period: "2025-2026"
+    stack: [TypeScript, Next.js, Docker]
+    priority: 900
+    private: true
+
+  - name: Face Emotion Detection
+    role: Author
+    category: AI / Computer Vision
+    period: "2025-2026"
+    stack: [Python, TensorFlow]
+    priority: 880
+    private: true
+
+  - name: SilkRoute AI Agent
+    role: Author
+    category: AI / Agents
+    period: "2026"
+    stack: [Python]
+    priority: 860
+    private: true
+
+  # ───────── Yess!Go (мульти-репо проект, владелец + collaborator) ─────────
+  - name: Yess!Go Backend
+    role: Author
+    category: Mobility / Backend
+    period: "2025-2026"
+    stack: [Python, FastAPI]
+    priority: 840
+    private: true
+
+  - name: Yess!Go Web App
+    role: Author
+    category: Mobility / Frontend
+    period: "2025-2026"
+    stack: [TypeScript, React]
+    priority: 830
+    private: true
+
+  - name: Yess!Go Mobile App
+    role: Contributor
+    category: Mobility / Mobile
+    period: "2025-2026"
+    stack: [TypeScript, React Native]
+    priority: 820
+    private: true
+    contributor: true
+
+  - name: Yess.MauiApp
+    role: Contributor
+    category: Mobility / Mobile
+    period: "2025"
+    stack: [C#, .NET, MAUI, Python]
+    priority: 810
+    contributor: true
+    links:
+      - label: GitHub
+        url: https://github.com/inspireVictim/YESS.MauiApp
+
+  - name: Yess-go-v2
+    role: Contributor
+    category: Mobility / Backend
+    period: "2025"
+    stack: [C#, .NET]
+    priority: 800
+    contributor: true
+    links:
+      - label: GitHub
+        url: https://github.com/inspireVictim/Yess-go-v2
+
+  # ───────── PrimeTech (collaborator, NDA) ─────────
+  - name: PrimeTech Admin Panel
+    role: Contributor
+    category: Admin Panel
+    period: "2025-2026"
+    stack: [TypeScript, React]
+    priority: 760
+    private: true
+    contributor: true
+
+  - name: PrimeTech User Web
+    role: Contributor
+    category: Web App
+    period: "2025-2026"
+    stack: [TypeScript, React]
+    priority: 750
+    private: true
+    contributor: true
+
+  # ───────── Прочие собственные приватные ─────────
+  - name: Ads Launcher
+    role: Author
+    category: Marketing Tools
+    period: "2025-2026"
+    stack: [TypeScript]
+    priority: 700
+    private: true
+
+  - name: Automation & Attendance Scripts
+    role: Author
+    category: Automation / Telegram
+    period: "2025-2026"
+    stack: [Python, Telegram]
+    priority: 680
+    private: true
