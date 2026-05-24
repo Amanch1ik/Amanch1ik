@@ -7,16 +7,17 @@
 #           только имя, категория, стек, год, флаг private.
 
 exclude:
-  # учебные / дубликаты / черновики — чтобы не засоряли портфолио
-  - KD-app
-  - Karakol-deliveryVN
-  - Karakol-delivery-backend-02
+  # KD-app и Karakol-deliveryVN заархивированы — скрипт их и так пропустит.
+  # Здесь оставляем заготовки-пустышки и мелкие учебные,
+  # чтобы они не попадали в публичную секцию проектов.
   - empty-repooo
   - empty_repo
   - empty_repo02
   - empty_repo05
   - empty_repoosit
   - number-finder
+  - Karakol-delivery-backend-02
+  - degrees-of-separation
   - Love-Me-Valentine
   - valentinka
   - otkrytka_8th_march

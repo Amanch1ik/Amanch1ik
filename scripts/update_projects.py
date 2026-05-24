@@ -162,14 +162,16 @@ LINK_ICONS: dict[str, str] = {
     "репо": "github",
 }
 
-LOCK_BADGE = (
-    "https://img.shields.io/badge/Private-0D1117?style=for-the-badge"
+LOCK_ICON = (
+    "https://img.shields.io/badge/-Private-0D1117?style=flat-square"
     "&logo=lock&logoColor=4FC3F7&labelColor=0D1117"
 )
-FORK_BADGE = (
-    "https://img.shields.io/badge/Contributor-0D1117?style=for-the-badge"
+CONTRIB_ICON = (
+    "https://img.shields.io/badge/-Contributor-0D1117?style=flat-square"
     "&logo=git&logoColor=4FC3F7&labelColor=0D1117"
 )
+
+MAX_STACK_ITEMS = 5
 
 
 # ────────────────────────── HTTP ──────────────────────────
@@ -322,62 +324,66 @@ def shield(label: str, color: str, logo: str | None = None,
 
 
 def tech_badge(name: str) -> str:
+    """Compact flat-square technology badge."""
     key = name.strip().lower()
     if key in TECH:
         display, bg, fg, logo = TECH[key]
-        return f'<img src="{shield(display, bg, logo, fg)}" alt="{name}" />'
+        url = (f"https://img.shields.io/badge/{display}-{bg}?style=flat-square"
+               f"&logo={urllib.parse.quote(logo)}&logoColor={urllib.parse.quote(fg)}")
+        return f'<img src="{url}" alt="{name}" height="20"/>'
     safe = name.strip().replace(" ", "%20")
-    return f'<img src="https://img.shields.io/badge/{safe}-30363D?style=for-the-badge" alt="{name}" />'
+    return f'<img src="https://img.shields.io/badge/{safe}-30363D?style=flat-square" alt="{name}" height="20"/>'
 
 
 def link_badge(label: str, url: str) -> str:
     logo = LINK_ICONS.get(label.strip().lower(), "googlechrome")
-    return (
-        f'<a href="{url}" target="_blank">'
-        f'<img src="{shield(label, "1F2937", logo, "white", "0D1117")}" alt="{label}" />'
-        f'</a>'
-    )
+    badge_url = (f"https://img.shields.io/badge/{urllib.parse.quote(label)}-1F2937?style=flat-square"
+                 f"&logo={urllib.parse.quote(logo)}&logoColor=white&labelColor=0D1117")
+    return f'<a href="{url}" target="_blank"><img src="{badge_url}" alt="{label}" height="20"/></a>'
 
 
-def render_card(p: dict) -> str:
+def render_cell(p: dict) -> str:
     name = p["name"]
     meta = " · ".join(filter(None, [p.get("category"), p.get("role"), str(p.get("period") or "")]))
-    desc = (p.get("description") or "").strip()
-    stack = p.get("stack") or []
+    stack = (p.get("stack") or [])[:MAX_STACK_ITEMS]
     links = p.get("links") or []
     private = bool(p.get("private"))
     contributor = bool(p.get("contributor"))
 
-    lines = ['<div align="center">', ""]
-
-    badges_top: list[str] = []
+    title_icons: list[str] = []
     if private:
-        badges_top.append(f'<img src="{LOCK_BADGE}" alt="Private" />')
+        title_icons.append(f'<img src="{LOCK_ICON}" alt="Private" height="18"/>')
     if contributor:
-        badges_top.append(f'<img src="{FORK_BADGE}" alt="Contributor" />')
-    if badges_top:
-        lines += [" ".join(badges_top), ""]
+        title_icons.append(f'<img src="{CONTRIB_ICON}" alt="Contributor" height="18"/>')
 
-    lines += [f"### {name}", ""]
+    parts = ['<td width="50%" valign="top">']
+    title = f"<b>{name}</b>"
+    if title_icons:
+        title = " ".join(title_icons) + " " + title
+    parts.append(title + "<br/>")
     if meta:
-        lines += [f"**{meta}**", ""]
-    if desc:
-        lines += [desc, ""]
+        parts.append(f"<sub>{meta}</sub><br/><br/>")
     if stack:
-        lines += [" ".join(tech_badge(t) for t in stack), ""]
+        parts.append(" ".join(tech_badge(t) for t in stack) + "<br/>")
     if links:
-        lines += [" ".join(link_badge(l["label"], l["url"]) for l in links), ""]
-
-    lines += ["</div>", "", "<br/>", ""]
-    return "\n".join(lines)
+        parts.append("<br/>" + " ".join(link_badge(l["label"], l["url"]) for l in links))
+    parts.append("</td>")
+    return "\n".join(parts)
 
 
 def render_section(projects: list[dict]) -> str:
     if not projects:
-        body = '<div align="center"><sub><em>Список пуст</em></sub></div>'
+        body = '<sub>пусто</sub>'
     else:
-        body = "\n".join(render_card(p) for p in projects)
-    return f"{START_MARKER}\n\n{body}\n{END_MARKER}"
+        rows = []
+        for i in range(0, len(projects), 2):
+            pair = projects[i:i + 2]
+            cells = "\n".join(render_cell(p) for p in pair)
+            if len(pair) == 1:
+                cells += '\n<td width="50%"></td>'
+            rows.append(f"<tr>\n{cells}\n</tr>")
+        body = '<table>\n' + "\n".join(rows) + '\n</table>'
+    return f"{START_MARKER}\n\n{body}\n\n{END_MARKER}"
 
 
 # ────────────────────────── Pipeline ──────────────────────────
