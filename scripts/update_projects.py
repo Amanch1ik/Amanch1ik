@@ -163,15 +163,17 @@ LINK_ICONS: dict[str, str] = {
 }
 
 LOCK_ICON = (
-    "https://img.shields.io/badge/-Private-0D1117?style=flat-square"
+    "https://img.shields.io/badge/-Private-0D1117?style=flat"
     "&logo=lock&logoColor=4FC3F7&labelColor=0D1117"
 )
 CONTRIB_ICON = (
-    "https://img.shields.io/badge/-Contributor-0D1117?style=flat-square"
+    "https://img.shields.io/badge/-Contributor-0D1117?style=flat"
     "&logo=git&logoColor=4FC3F7&labelColor=0D1117"
 )
 
-MAX_STACK_ITEMS = 4
+MAX_STACK_ITEMS = 3
+MAX_LINKS = 2
+CARD_HEIGHT = 130
 
 
 # ────────────────────────── HTTP ──────────────────────────
@@ -328,16 +330,16 @@ def tech_badge(name: str) -> str:
     key = name.strip().lower()
     if key in TECH:
         display, bg, fg, logo = TECH[key]
-        url = (f"https://img.shields.io/badge/{display}-{bg}?style=flat-square"
+        url = (f"https://img.shields.io/badge/{display}-{bg}?style=flat"
                f"&logo={urllib.parse.quote(logo)}&logoColor={urllib.parse.quote(fg)}")
         return f'<img src="{url}" alt="{name}" height="20"/>'
     safe = name.strip().replace(" ", "%20")
-    return f'<img src="https://img.shields.io/badge/{safe}-30363D?style=flat-square" alt="{name}" height="20"/>'
+    return f'<img src="https://img.shields.io/badge/{safe}-30363D?style=flat" alt="{name}" height="20"/>'
 
 
 def link_badge(label: str, url: str) -> str:
     logo = LINK_ICONS.get(label.strip().lower(), "googlechrome")
-    badge_url = (f"https://img.shields.io/badge/{urllib.parse.quote(label)}-1F2937?style=flat-square"
+    badge_url = (f"https://img.shields.io/badge/{urllib.parse.quote(label)}-1F2937?style=flat"
                  f"&logo={urllib.parse.quote(logo)}&logoColor=white&labelColor=0D1117")
     return f'<a href="{url}" target="_blank"><img src="{badge_url}" alt="{label}" height="20"/></a>'
 
@@ -346,7 +348,7 @@ def render_cell(p: dict) -> str:
     name = p["name"]
     meta = " · ".join(filter(None, [p.get("category"), p.get("role"), str(p.get("period") or "")]))
     stack = (p.get("stack") or [])[:MAX_STACK_ITEMS]
-    links = p.get("links") or []
+    links = (p.get("links") or [])[:MAX_LINKS]
     private = bool(p.get("private"))
     contributor = bool(p.get("contributor"))
 
@@ -356,7 +358,7 @@ def render_cell(p: dict) -> str:
     if contributor:
         title_icons.append(f'<img src="{CONTRIB_ICON}" alt="Contributor" height="18"/>')
 
-    parts = ['<td width="50%" valign="top">']
+    parts = [f'<td width="50%" valign="top" height="{CARD_HEIGHT}">']
     title = f"<b>{name}</b>"
     if title_icons:
         title = " ".join(title_icons) + " " + title
@@ -380,7 +382,7 @@ def render_section(projects: list[dict]) -> str:
             pair = projects[i:i + 2]
             cells = "\n".join(render_cell(p) for p in pair)
             if len(pair) == 1:
-                cells += '\n<td width="50%"></td>'
+                cells += f'\n<td width="50%" height="{CARD_HEIGHT}"></td>'
             rows.append(f"<tr>\n{cells}\n</tr>")
         body = '<table width="100%">\n' + "\n".join(rows) + '\n</table>'
     return f"{START_MARKER}\n\n{body}\n\n{END_MARKER}"

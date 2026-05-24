@@ -138,98 +138,150 @@ I build web and mobile applications, AI services, and internal tools — end-to-
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Course Platform</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Course Platform</b><br/>
 <sub>EdTech · Contributor · 2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="20"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white" alt="NestJS" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Aiden Voice Assistant</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Aiden Voice Assistant</b><br/>
 <sub>AI / Voice Assistant · Author · 2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" height="20"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" height="20"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>MMORPG Telegram Bot</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>MMORPG Telegram Bot</b><br/>
 <sub>Game / Telegram · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/aiogram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="aiogram" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/aiogram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="aiogram" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Reklama AI Generator</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Reklama AI Generator</b><br/>
 <sub>AI / SaaS · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" height="20"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" alt="Next.js" height="20"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Face Emotion Detection</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Face Emotion Detection</b><br/>
 <sub>AI / Computer Vision · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>SilkRoute AI Agent</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>SilkRoute AI Agent</b><br/>
 <sub>AI / Agents · Author · 2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Backend</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Backend</b><br/>
 <sub>Mobility / Backend · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Web App</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Web App</b><br/>
 <sub>Mobility / Frontend · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess!Go Mobile App</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess!Go Mobile App</b><br/>
 <sub>Mobility / Mobile · Contributor · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React%20Native-30363D?style=flat-square" alt="React Native" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React%20Native-30363D?style=flat" alt="React Native" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess.MauiApp</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess.MauiApp</b><br/>
 <sub>Mobility / Mobile · Contributor · 2025</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" height="20"/> <img src="https://img.shields.io/badge/MAUI-30363D?style=flat-square" alt="MAUI" height="20"/> <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/><br/>
-<br/><a href="https://github.com/inspireVictim/YESS.MauiApp" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
+<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" alt=".NET" height="20"/> <img src="https://img.shields.io/badge/MAUI-30363D?style=flat" alt="MAUI" height="20"/><br/>
+<br/><a href="https://github.com/inspireVictim/YESS.MauiApp" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess-go-v2</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess-go-v2</b><br/>
 <sub>Mobility / Backend · Contributor · 2025</sub><br/><br/>
-<img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET" height="20"/><br/>
-<br/><a href="https://github.com/inspireVictim/Yess-go-v2" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat-square&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
+<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white" alt=".NET" height="20"/><br/>
+<br/><a href="https://github.com/inspireVictim/Yess-go-v2" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech Admin Panel</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech Admin Panel</b><br/>
 <sub>Admin Panel · Contributor · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat-square&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech User Web</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&logo=git&logoColor=4FC3F7&labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech User Web</b><br/>
 <sub>Web App · Contributor · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Ads Launcher</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Ads Launcher</b><br/>
 <sub>Marketing Tools · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="20"/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/><br/>
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat-square&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Automation & Attendance Scripts</b><br/>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>Automation & Attendance Scripts</b><br/>
 <sub>Automation / Telegram · Author · 2025-2026</sub><br/><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white" alt="Telegram" height="20"/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram" height="20"/><br/>
 </td>
-<td width="50%"></td>
+<td width="50%" valign="top" height="130">
+<b>Partfolio_Amanchik</b><br/>
+<sub>Project · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" height="20"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" height="20"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" height="20"/><br/>
+<br/><a href="https://github.com/Amanch1ik/Partfolio_Amanchik" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a> <a href="https://amanch1ik.github.io/Partfolio_Amanchik/" target="_blank"><img src="https://img.shields.io/badge/%D0%A1%D0%B0%D0%B9%D1%82-1F2937?style=flat&logo=googlechrome&logoColor=white&labelColor=0D1117" alt="Сайт" height="20"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>web-version-YES-GO</b><br/>
+<sub>TypeScript · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" height="20"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" height="20"/><br/>
+</td>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>MMORPG</b><br/>
+<sub>Python · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" height="20"/> <img src="https://img.shields.io/badge/Cython-30363D?style=flat" alt="Cython" height="20"/><br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" height="130">
+<b>Karakol-delivery-APP</b><br/>
+<sub>Python · Author · 2025</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" height="20"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" height="20"/><br/>
+<br/><a href="https://github.com/Amanch1ik/Karakol-delivery-APP" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
+</td>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>agents_analyze</b><br/>
+<sub>Python · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" height="20"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" height="20"/><br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" height="130">
+<b>Tech-shop</b><br/>
+<sub>C# · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/Batchfile-30363D?style=flat" alt="Batchfile" height="20"/> <img src="https://img.shields.io/badge/TSQL-30363D?style=flat" alt="TSQL" height="20"/><br/>
+<br/><a href="https://github.com/Amanch1ik/Tech-shop" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
+</td>
+<td width="50%" valign="top" height="130">
+<b>educonnect</b><br/>
+<sub>TypeScript · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white" alt="C#" height="20"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" height="20"/><br/>
+<br/><a href="https://github.com/Amanch1ik/educonnect" target="_blank"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&logo=github&logoColor=white&labelColor=0D1117" alt="GitHub" height="20"/></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" height="130">
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&logo=lock&logoColor=4FC3F7&labelColor=0D1117" alt="Private" height="18"/> <b>PANELS_YESS_GO_last</b><br/>
+<sub>TypeScript · Author · 2026</sub><br/><br/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat&logo=gnubash&logoColor=white" alt="Shell" height="20"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS" height="20"/><br/>
+</td>
+<td width="50%" height="130"></td>
 </tr>
 </table>
 
