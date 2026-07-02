@@ -35,7 +35,7 @@ I build web and mobile applications, AI services, and internal tools — end-to-
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0f3460?style=for-the-badge&logoColor=white)](https://amanch1ik.github.io/Partfolio_Amanchik/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0f3460?style=for-the-badge&logoColor=white)](https://amanch1ik.github.io/Portfolio_Amanchik/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-0f3460?style=for-the-badge&logo=leetcode&logoColor=4FC3F7)](https://leetcode.com/u/Amanch1ik/)
 [![Instagram](https://img.shields.io/badge/@amanch1ik__-0f3460?style=for-the-badge&logo=instagram&logoColor=4FC3F7)](https://www.instagram.com/amanch1ik_/)
 
@@ -235,7 +235,7 @@ Open to new projects and collaboration. Reach out anytime.
 
 <br/>
 
-<a href="https://amanch1ik.github.io/Partfolio_Amanchik/">
+<a href="https://amanch1ik.github.io/Portfolio_Amanchik/">
   <img src="https://img.shields.io/badge/Portfolio-0f3460?style=for-the-badge&logoColor=4FC3F7" />
 </a>
 <a href="https://www.instagram.com/amanch1ik_/">
