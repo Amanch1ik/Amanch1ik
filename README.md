@@ -92,7 +92,7 @@ I build web and mobile applications, AI services, and internal tools — end-to-
 
 ## Top Languages
 
-<img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8&exclude_repo=awesome-python,awesome-jupyter,python-guide,python-interview-questions,project-based-learning,interactive-coding-challenges,fucking-awesome-python,book,symfony" />
+<img width="350" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Amanch1ik&layout=compact&hide_border=true&bg_color=0D1117&title_color=4FC3F7&text_color=B0BEC5&langs_count=8&size_weight=0.5&count_weight=0.5&exclude_repo=awesome-python,awesome-jupyter,python-guide,python-interview-questions,project-based-learning,interactive-coding-challenges,fucking-awesome-python,book,symfony,Karakol-delivery-APP,Amanch1ik" />
 
 </div>
 
