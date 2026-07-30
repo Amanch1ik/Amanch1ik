@@ -56,21 +56,23 @@ out = [
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
 if not STATIC:
-    CBAND = round(0.22 * W)
+    CBAND = round(0.16 * W)
     CSWEEP = W + CBAND
     out.append(
         '<style>'
         # spring line-by-line reveal (TRANSFORM only, opacity always 1) + looping light sweep.
         # Static-poster contexts still show every line -> never blank.
         '@keyframes sl{from{transform:translateX(-10px)}to{transform:none}}'
-        f'@keyframes csh{{0%{{transform:translateX(0) skewX(-14deg)}}28%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}}}'
+        f'@keyframes csh{{0%{{transform:translateX(0) skewX(-14deg)}}15%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}}}'
+        '@keyframes blink{0%,52%{opacity:1}52.01%,100%{opacity:0}}'
         '.r{animation:sl .44s cubic-bezier(.34,1.32,.5,1) both}'
-        '.cshine{animation:csh 5.5s cubic-bezier(.5,0,.25,1) 1s infinite}'
-        '@media(prefers-reduced-motion:reduce){.r,.cshine{animation:none}}'
+        '.cshine{animation:csh 6s cubic-bezier(.45,0,.2,1) 1s infinite}'
+        '.caret{animation:blink 1.1s step-end infinite}'
+        '@media(prefers-reduced-motion:reduce){.r,.cshine{animation:none}.caret{animation:none;opacity:1}}'
         '</style>'
         '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">'
         '<stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>'
-        '<stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.12"/>'
+        '<stop offset="0.5" stop-color="#8ec2ff" stop-opacity="0.18"/>'
         '<stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>'
         f'</linearGradient><clipPath id="cw"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14"/></clipPath></defs>'
     )
@@ -90,7 +92,7 @@ def cls(delay):
     return '' if STATIC else f' class="r" style="animation-delay:{delay}s"'
 
 
-# user@host
+# user@host + blinking terminal caret
 y = PADTOP
 out.append(
     f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}"{cls(0.0)} xml:space="preserve">'
@@ -98,6 +100,8 @@ out.append(
     f'<tspan fill="{DIM}">@</tspan>'
     f'<tspan fill="{HOST}" font-weight="700">{TITLE[1]}</tspan></text>'
 )
+caret_x = PADX + round((len(TITLE[0]) + 1 + len(TITLE[1])) * CHARW) + 4
+out.append(f'<rect class="caret" x="{caret_x}" y="{y-12:.0f}" width="9" height="15" rx="1" fill="{USER}"/>')
 # rule
 y += LH * 0.72
 out.append(

@@ -54,16 +54,16 @@ SWEEP = round(W + 0.34 * W)
 out.append(
     '<style>'
     '@keyframes ln{from{transform:translateY(-7px) scale(.99)}to{transform:none}}'
-    f'@keyframes shine{{0%{{transform:translateX(0) skewX(-14deg)}}30%{{transform:translateX({SWEEP}px) skewX(-14deg)}}100%{{transform:translateX({SWEEP}px) skewX(-14deg)}}}}'
+    f'@keyframes shine{{0%{{transform:translateX(0) skewX(-14deg)}}16%{{transform:translateX({SWEEP}px) skewX(-14deg)}}100%{{transform:translateX({SWEEP}px) skewX(-14deg)}}}}'
     'text.l{animation:ln .55s cubic-bezier(.34,1.32,.5,1) both}'
-    '.shine{animation:shine 5s cubic-bezier(.5,0,.25,1) .6s infinite}'
+    '.shine{animation:shine 6s cubic-bezier(.45,0,.2,1) .6s infinite}'
     '@media(prefers-reduced-motion:reduce){text.l,.shine{animation:none}}'
     '</style>'
 )
 out.append(
     '<defs><linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">'
     '<stop offset="0" stop-color="#ffffff" stop-opacity="0"/>'
-    '<stop offset="0.5" stop-color="#ffffff" stop-opacity="0.13"/>'
+    '<stop offset="0.5" stop-color="#dbe6ff" stop-opacity="0.22"/>'
     '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>'
     f'</linearGradient><clipPath id="pw"><rect width="{W}" height="{H}" rx="14"/></clipPath></defs>'
 )
@@ -80,8 +80,8 @@ for i, line in enumerate(lines):
         f'letter-spacing="{CHARW - FS*0.6:.3f}">{esc(line)}</text>'
     )
 
-# diagonal shine band, parked off the left edge; sweeps across once (accent, not content)
-band = round(0.22 * W)
+# diagonal shine band, parked off the left edge; sweeps across on a loop (accent, not content)
+band = round(0.16 * W)
 out.append(
     f'<rect class="shine" clip-path="url(#pw)" x="{-band}" y="{-0.15*H:.0f}" '
     f'width="{band}" height="{1.3*H:.0f}" fill="url(#sh)"/>'

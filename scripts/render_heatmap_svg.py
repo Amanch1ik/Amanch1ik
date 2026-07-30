@@ -39,33 +39,36 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
-HBAND = round(0.18 * W)
+HBAND = round(0.13 * W)
 HSWEEP = W + HBAND
 out.append(
     '<style>'
     # diagonal spring pop via TRANSFORM only (opacity always 1) + a looping light sweep.
     # Static-poster contexts show the full grid (at most a few px / slightly scaled) — never blank.
     '@keyframes pop{from{transform:translateY(-5px) scale(.8)}to{transform:none}}'
-    f'@keyframes hsh{{0%{{transform:translateX(0) skewX(-14deg)}}28%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}}}'
+    f'@keyframes hsh{{0%{{transform:translateX(0) skewX(-14deg)}}15%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}}}'
+    '@keyframes blink{0%,52%{opacity:1}52.01%,100%{opacity:0}}'
     'rect.c{animation:pop .5s cubic-bezier(.34,1.4,.5,1) both;transform-box:fill-box;transform-origin:center}'
-    '.hshine{animation:hsh 5.5s cubic-bezier(.5,0,.25,1) .9s infinite}'
-    '@media(prefers-reduced-motion:reduce){rect.c,.hshine{animation:none}}'
+    '.hshine{animation:hsh 6s cubic-bezier(.45,0,.2,1) .9s infinite}'
+    '.caret{animation:blink 1.1s step-end infinite}'
+    '@media(prefers-reduced-motion:reduce){rect.c,.hshine{animation:none}.caret{animation:none;opacity:1}}'
     '</style>'
 )
 out.append(
     '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">'
     '<stop offset="0" stop-color="#39d353" stop-opacity="0"/>'
-    '<stop offset="0.5" stop-color="#39d353" stop-opacity="0.16"/>'
+    '<stop offset="0.5" stop-color="#4ae168" stop-opacity="0.26"/>'
     '<stop offset="1" stop-color="#39d353" stop-opacity="0"/>'
     f'</linearGradient><clipPath id="win"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14"/></clipPath></defs>'
 )
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
-# title bar
+# title bar + blinking terminal caret
 out.append(
     f'<text x="{PAD}" y="30" font-size="14"><tspan fill="{GREEN}" font-weight="700">amanbol</tspan>'
     f'<tspan fill="{DIM}">@github</tspan><tspan fill="{DIM}"> ~ ./contributions.sh</tspan></text>'
 )
+out.append(f'<rect class="caret" x="315" y="19" width="8" height="14" rx="1" fill="{GREEN}"/>')
 out.append(
     f'<text x="{W-PAD}" y="30" text-anchor="end" font-size="13" fill="{LIGHT}">'
     f'{fmt(d["total"])} contributions in the last year</text>'
