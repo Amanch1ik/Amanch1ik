@@ -39,6 +39,16 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
+out.append(
+    '<style>'
+    # diagonal reveal via TRANSFORM only (opacity always 1): cells slide down where the
+    # browser animates <img> SVGs; a static-poster context shows the full grid (at most
+    # shifted a few px) — never blank.
+    '@keyframes pop{from{transform:translateY(-6px)}to{transform:none}}'
+    'rect.c{animation:pop .5s cubic-bezier(.4,0,.2,1) both;transform-box:fill-box}'
+    '@media(prefers-reduced-motion:reduce){rect.c{animation:none}}'
+    '</style>'
+)
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
 # title bar
@@ -79,10 +89,11 @@ for col, wk in enumerate(weeks):
         if not day:
             continue
         color = PALETTE[min(day["level"], 4)]
+        delay = round(0.12 + (col + row) * 0.014, 3)
         tip = f'{day["count"]} on {day["date"]}'
         out.append(
-            f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
-            f'fill="{color}"><title>{tip}</title></rect>'
+            f'<rect class="c" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
+            f'fill="{color}" style="animation-delay:{delay}s"><title>{tip}</title></rect>'
         )
 
 # footer: streak stats (left) + legend (right)

@@ -7,8 +7,7 @@ Set STATIC=1 to emit a frozen frame with no animation.
 import os
 
 OUT = "info-card.svg"
-# always static: GitHub rasterizes animated <img> SVGs at t=0 and would render blank lines.
-STATIC = True
+STATIC = os.environ.get("STATIC") == "1"
 
 BG      = "#0d1117"
 BORDER  = "#30363d"
@@ -59,10 +58,10 @@ out = [
 if not STATIC:
     out.append(
         '<style>'
-        '@keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}'
-        # base fully visible; "forwards" never applies the opacity:0 start frame before/without
-        # playback -> a paused or non-animating <img> still shows every line
-        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) forwards}'
+        '@keyframes sl{from{transform:translateX(-10px)}to{transform:none}}'
+        # TRANSFORM-only reveal (opacity always 1): animates line-by-line where supported,
+        # never blank in a static-poster context (worst case: a few px shifted)
+        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) both}'
         '@media(prefers-reduced-motion:reduce){.r{animation:none}}'
         '</style>'
     )

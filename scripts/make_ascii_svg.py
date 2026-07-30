@@ -46,16 +46,25 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
-# static render: GitHub rasterizes animated <img> SVGs at t=0, which would show a blank
-# portrait; a plain, always-visible portrait can never be empty.
+# Row-by-row reveal via TRANSFORM only (never opacity/clip to zero). Browsers that animate
+# <img> SVGs print the portrait line by line; any static-poster context shows the whole
+# portrait, at most shifted a few px — never blank.
+out.append(
+    '<style>'
+    '@keyframes ln{from{transform:translateX(-9px)}to{transform:none}}'
+    'text.l{animation:ln .3s ease-out both}'
+    '@media(prefers-reduced-motion:reduce){text.l{animation:none}}'
+    '</style>'
+)
 out.append(f'<rect width="{W}" height="{H}" rx="14" fill="{BG}"/>')
 
 for i, line in enumerate(lines):
     if not line:
         continue
     baseline = PADY + i * CHARH + CHARH * 0.82
+    delay = round(i * STAGGER, 3)
     out.append(
-        f'<text x="{PADX:.1f}" y="{baseline:.2f}" '
+        f'<text class="l" style="animation-delay:{delay}s" x="{PADX:.1f}" y="{baseline:.2f}" '
         f'xml:space="preserve" font-size="{FS}" fill="{INK}" '
         f'letter-spacing="{CHARW - FS*0.6:.3f}">{esc(line)}</text>'
     )

@@ -2,7 +2,7 @@
 
 <h3><code>amanbol@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg?v=2" width="860" alt="Contribution graph — refreshed daily" />
+<img src="./contrib-heatmap.svg?v=3" width="860" alt="Contribution graph — refreshed daily" />
 
 <br><br>
 
@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./amanbol-ascii.svg?v=2" width="430" alt="ASCII portrait" /></td>
-    <td valign="top"><img src="./info-card.svg?v=2" width="430" alt="neofetch card" /></td>
+    <td valign="top"><img src="./amanbol-ascii.svg?v=3" width="430" alt="ASCII portrait" /></td>
+    <td valign="top"><img src="./info-card.svg?v=3" width="430" alt="neofetch card" /></td>
   </tr>
 </table>
 
