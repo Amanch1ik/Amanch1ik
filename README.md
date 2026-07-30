@@ -10,8 +10,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./amanbol-ascii.svg" width="370" alt="ASCII portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="neofetch card" /></td>
+    <td valign="top"><img src="./amanbol-ascii.svg" width="430" alt="ASCII portrait" /></td>
+    <td valign="top"><img src="./info-card.svg" width="430" alt="neofetch card" /></td>
   </tr>
 </table>
 
@@ -121,6 +121,16 @@
 <!-- PROJECTS:END -->
 
 <br>
+
+<h3><code>amanbol@github ~ $ ./snake.sh</code></h3>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Amanch1ik/Amanch1ik/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Amanch1ik/Amanch1ik/output/github-snake.svg" />
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/Amanch1ik/Amanch1ik/output/github-snake-dark.svg" width="860" />
+</picture>
+
+<br><br>
 
 <h3><code>amanbol@github ~ $ ./connect.sh</code></h3>
 
