@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="862" height="202" viewBox="0 0 862 202" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<style>@keyframes pop{from{opacity:0;transform:translateY(-5px) scale(.35)}to{opacity:1;transform:none}}rect.c{opacity:0;animation:pop .5s cubic-bezier(.4,0,.2,1) forwards;transform-box:fill-box;transform-origin:center}</style>
+<style>@keyframes pop{from{opacity:0;transform:translateY(-5px) scale(.35)}to{opacity:1;transform:none}}rect.c{animation:pop .55s cubic-bezier(.4,0,.2,1) both;transform-box:fill-box;transform-origin:center}@media(prefers-reduced-motion:reduce){rect.c{animation:none}}</style>
 <rect x="0.5" y="0.5" width="861" height="201" rx="14" fill="#0d1117" stroke="#30363d"/>
 <text x="18" y="30" font-size="14"><tspan fill="#3fb950" font-weight="700">amanbol</tspan><tspan fill="#7d8590">@github</tspan><tspan fill="#7d8590"> ~ ./contributions.sh</tspan></text>
 <text x="844" y="30" text-anchor="end" font-size="13" fill="#c9d1d9">3,975 contributions in the last year</text>

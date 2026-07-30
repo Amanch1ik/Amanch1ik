@@ -42,8 +42,11 @@ out = [
 out.append(
     '<style>'
     '@keyframes pop{from{opacity:0;transform:translateY(-5px) scale(.35)}to{opacity:1;transform:none}}'
-    'rect.c{opacity:0;animation:pop .5s cubic-bezier(.4,0,.2,1) forwards;'
+    # base state is fully visible; "both" hides+reveals only where animation actually runs,
+    # so browsers that don't animate <img> SVGs still show the whole grid (never empty).
+    'rect.c{animation:pop .55s cubic-bezier(.4,0,.2,1) both;'
     'transform-box:fill-box;transform-origin:center}'
+    '@media(prefers-reduced-motion:reduce){rect.c{animation:none}}'
     '</style>'
 )
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """info-card.svg : a neofetch-style panel that prints next to the portrait, line by line.
-Set STATIC=1 for a frozen frame (local Quick Look). GitHub plays the animated version.
+Progressive enhancement: every line's base state is fully visible; the CSS reveal only adds
+an intro where the browser animates <img> SVGs. So it is NEVER blank, even without animation.
+Set STATIC=1 to emit a frozen frame with no animation.
 """
 import os
 
@@ -18,9 +20,9 @@ FS      = 15
 CHARW   = FS * 0.60
 LH      = FS * 1.72
 PADX    = 26
-PADTOP  = 58          # room for the title bar
+PADTOP  = 58
 
-TITLE = ("amanbol", "github")   # user@host
+TITLE = ("amanbol", "github")
 
 ROWS = [
     ("Role",    "Full-Stack Developer"),
@@ -43,81 +45,77 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-# ---- geometry ----
 longest = max(len(TITLE[0]) + 1 + len(TITLE[1]),
               max(KEYW + 2 + len(v) for _, v in ROWS))
 W = round(PADX * 2 + longest * CHARW) + 8
 n_body = len(ROWS)
-H = round(PADTOP + (n_body + 2.4) * LH + 34)   # +rule +swatches
+H = round(PADTOP + (n_body + 2.4) * LH + 34)
 
 out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
+if not STATIC:
+    out.append(
+        '<style>'
+        '@keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}'
+        # base fully visible; "both" only affects where animation runs -> never blank
+        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) both}'
+        '@media(prefers-reduced-motion:reduce){.r{animation:none}}'
+        '</style>'
+    )
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
-# title bar: traffic-light dots + user@host
-out.append(f'<circle cx="24" cy="26" r="6" fill="#f85149"/>')
-out.append(f'<circle cx="44" cy="26" r="6" fill="#d29922"/>')
-out.append(f'<circle cx="64" cy="26" r="6" fill="#3fb950"/>')
+# title bar (static): traffic dots + label
+out.append('<circle cx="24" cy="26" r="6" fill="#f85149"/>')
+out.append('<circle cx="44" cy="26" r="6" fill="#d29922"/>')
+out.append('<circle cx="64" cy="26" r="6" fill="#3fb950"/>')
 out.append(
     f'<text x="{W-PADX}" y="31" text-anchor="end" font-size="12.5" fill="{DIM}" '
     f'xml:space="preserve">~ neofetch</text>'
 )
 
-def anim(delay):
-    if STATIC:
-        return ('', '1')
-    a = (f'<animate attributeName="opacity" from="0" to="1" begin="{delay}s" dur="0.32s" fill="freeze"/>'
-         f'<animateTransform attributeName="transform" type="translate" from="-10 0" to="0 0" '
-         f'begin="{delay}s" dur="0.32s" fill="freeze" calcMode="spline" keySplines="0.3 0 0.2 1" keyTimes="0;1"/>')
-    return (a, '0')
 
-# user@host line
-d0, o0 = anim(0.0)
+def cls(delay):
+    return '' if STATIC else f' class="r" style="animation-delay:{delay}s"'
+
+
+# user@host
 y = PADTOP
 out.append(
-    f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}" opacity="{o0}" xml:space="preserve">'
+    f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}"{cls(0.0)} xml:space="preserve">'
     f'<tspan fill="{USER}" font-weight="700">{TITLE[0]}</tspan>'
     f'<tspan fill="{DIM}">@</tspan>'
-    f'<tspan fill="{HOST}" font-weight="700">{TITLE[1]}</tspan>{d0}</text>'
+    f'<tspan fill="{HOST}" font-weight="700">{TITLE[1]}</tspan></text>'
 )
 # rule
-d1, o1 = anim(0.09)
 y += LH * 0.72
-rule = "─" * (longest)
 out.append(
-    f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}" fill="{DIM}" opacity="{o1}" '
-    f'xml:space="preserve">{rule}{d1}</text>'
+    f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}" fill="{DIM}"{cls(0.09)} '
+    f'xml:space="preserve">{"─" * longest}</text>'
 )
-
-# body rows
+# body
 for i, (k, v) in enumerate(ROWS):
-    delay = round(0.18 + i * 0.11, 3)
-    d, o = anim(delay)
+    delay = round(0.18 + i * 0.1, 3)
     y += LH
     keypad = (k + ":").ljust(KEYW + 1)
     out.append(
-        f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}" opacity="{o}" xml:space="preserve">'
+        f'<text x="{PADX}" y="{y:.1f}" font-size="{FS}"{cls(delay)} xml:space="preserve">'
         f'<tspan fill="{KEY}" font-weight="600">{keypad}</tspan>'
-        f'<tspan fill="{VAL}">{esc(v)}</tspan>{d}</text>'
+        f'<tspan fill="{VAL}">{esc(v)}</tspan></text>'
     )
-
-# ANSI swatch rows (neofetch signature)
+# ANSI swatches
 y += LH * 0.9
-sq = 15
-gap = 4
-delay = round(0.18 + n_body * 0.11 + 0.1, 3)
-d, o = anim(delay)
-out.append(f'<g opacity="{o}">')
+sq, gap = 15, 4
+delay = round(0.18 + n_body * 0.1 + 0.1, 3)
+out.append(f'<g{cls(delay)}>')
 for r in range(2):
     for c in range(8):
-        idx = c if r == 0 else c  # same eight, two tones via opacity
         x = PADX + c * (sq + gap)
         yy = y + r * (sq + gap)
         op = 1.0 if r == 0 else 0.55
-        out.append(f'<rect x="{x}" y="{yy:.1f}" width="{sq}" height="{sq}" rx="3" fill="{ANSI[idx]}" opacity="{op}"/>')
-out.append(f'{d}</g>')
+        out.append(f'<rect x="{x}" y="{yy:.1f}" width="{sq}" height="{sq}" rx="3" fill="{ANSI[c]}" opacity="{op}"/>')
+out.append('</g>')
 
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))
