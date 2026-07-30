@@ -49,8 +49,9 @@ out = [
 out.append(
     '<style>'
     '@keyframes ln{from{opacity:0;transform:translateX(-9px)}to{opacity:1;transform:none}}'
-    # base fully visible; "both" only bites where <img> SVG animation runs -> never blank
-    'text.l{animation:ln .3s ease-out both}'
+    # base fully visible; "forwards" never applies the opacity:0 start frame before/without
+    # playback -> a paused or non-animating <img> still shows the whole portrait
+    'text.l{animation:ln .3s ease-out forwards}'
     '@media(prefers-reduced-motion:reduce){text.l{animation:none}}'
     '</style>'
 )

@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="754" height="718" viewBox="0 0 754 718" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<style>@keyframes ln{from{opacity:0;transform:translateX(-9px)}to{opacity:1;transform:none}}text.l{animation:ln .3s ease-out both}@media(prefers-reduced-motion:reduce){text.l{animation:none}}</style>
+<style>@keyframes ln{from{opacity:0;transform:translateX(-9px)}to{opacity:1;transform:none}}text.l{animation:ln .3s ease-out forwards}@media(prefers-reduced-motion:reduce){text.l{animation:none}}</style>
 <rect width="754" height="718" rx="14" fill="#0d1117"/>
 <text class="l" style="animation-delay:0.0s" x="26.0" y="33.51" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">                                  .....`:----::::-:</text>
 <text class="l" style="animation-delay:0.03s" x="26.0" y="47.55" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">                                    `-===+++**+==+**-`</text>

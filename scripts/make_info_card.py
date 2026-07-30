@@ -59,8 +59,9 @@ if not STATIC:
     out.append(
         '<style>'
         '@keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}'
-        # base fully visible; "both" only affects where animation runs -> never blank
-        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) both}'
+        # base fully visible; "forwards" never applies the opacity:0 start frame before/without
+        # playback -> a paused or non-animating <img> still shows every line
+        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) forwards}'
         '@media(prefers-reduced-motion:reduce){.r{animation:none}}'
         '</style>'
     )

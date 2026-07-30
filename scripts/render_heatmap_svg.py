@@ -42,9 +42,9 @@ out = [
 out.append(
     '<style>'
     '@keyframes pop{from{opacity:0;transform:translateY(-5px) scale(.35)}to{opacity:1;transform:none}}'
-    # base state is fully visible; "both" hides+reveals only where animation actually runs,
-    # so browsers that don't animate <img> SVGs still show the whole grid (never empty).
-    'rect.c{animation:pop .55s cubic-bezier(.4,0,.2,1) both;'
+    # base state fully visible; "forwards" (NOT "both") never applies the opacity:0 start
+    # frame before/without playback, so a paused or non-animating <img> shows the whole grid.
+    'rect.c{animation:pop .55s cubic-bezier(.4,0,.2,1) forwards;'
     'transform-box:fill-box;transform-origin:center}'
     '@media(prefers-reduced-motion:reduce){rect.c{animation:none}}'
     '</style>'

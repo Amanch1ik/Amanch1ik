@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="420" height="386" viewBox="0 0 420 386" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<style>@keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}.r{animation:sl .34s cubic-bezier(.3,0,.2,1) both}@media(prefers-reduced-motion:reduce){.r{animation:none}}</style>
+<style>@keyframes sl{from{opacity:0;transform:translateX(-10px)}to{opacity:1;transform:none}}.r{animation:sl .34s cubic-bezier(.3,0,.2,1) forwards}@media(prefers-reduced-motion:reduce){.r{animation:none}}</style>
 <rect x="0.5" y="0.5" width="419" height="385" rx="14" fill="#0d1117" stroke="#30363d"/>
 <circle cx="24" cy="26" r="6" fill="#f85149"/>
 <circle cx="44" cy="26" r="6" fill="#d29922"/>
