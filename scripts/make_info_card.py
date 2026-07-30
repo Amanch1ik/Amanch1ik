@@ -7,7 +7,8 @@ Set STATIC=1 to emit a frozen frame with no animation.
 import os
 
 OUT = "info-card.svg"
-STATIC = os.environ.get("STATIC") == "1"
+# always static: GitHub rasterizes animated <img> SVGs at t=0 and would render blank lines.
+STATIC = True
 
 BG      = "#0d1117"
 BORDER  = "#30363d"

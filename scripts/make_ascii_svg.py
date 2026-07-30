@@ -46,24 +46,16 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
-out.append(
-    '<style>'
-    '@keyframes ln{from{opacity:0;transform:translateX(-9px)}to{opacity:1;transform:none}}'
-    # base fully visible; "forwards" never applies the opacity:0 start frame before/without
-    # playback -> a paused or non-animating <img> still shows the whole portrait
-    'text.l{animation:ln .3s ease-out forwards}'
-    '@media(prefers-reduced-motion:reduce){text.l{animation:none}}'
-    '</style>'
-)
+# static render: GitHub rasterizes animated <img> SVGs at t=0, which would show a blank
+# portrait; a plain, always-visible portrait can never be empty.
 out.append(f'<rect width="{W}" height="{H}" rx="14" fill="{BG}"/>')
 
 for i, line in enumerate(lines):
     if not line:
         continue
     baseline = PADY + i * CHARH + CHARH * 0.82
-    delay = round(i * STAGGER, 3)
     out.append(
-        f'<text class="l" style="animation-delay:{delay}s" x="{PADX:.1f}" y="{baseline:.2f}" '
+        f'<text x="{PADX:.1f}" y="{baseline:.2f}" '
         f'xml:space="preserve" font-size="{FS}" fill="{INK}" '
         f'letter-spacing="{CHARW - FS*0.6:.3f}">{esc(line)}</text>'
     )

@@ -39,16 +39,6 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
-out.append(
-    '<style>'
-    '@keyframes pop{from{opacity:0;transform:translateY(-5px) scale(.35)}to{opacity:1;transform:none}}'
-    # base state fully visible; "forwards" (NOT "both") never applies the opacity:0 start
-    # frame before/without playback, so a paused or non-animating <img> shows the whole grid.
-    'rect.c{animation:pop .55s cubic-bezier(.4,0,.2,1) forwards;'
-    'transform-box:fill-box;transform-origin:center}'
-    '@media(prefers-reduced-motion:reduce){rect.c{animation:none}}'
-    '</style>'
-)
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
 # title bar
@@ -80,8 +70,7 @@ for row, lab in [(1, "Mon"), (3, "Wed"), (5, "Fri")]:
     y = gy0 + row * STEP + CELL - 2
     out.append(f'<text x="{PAD}" y="{y}" font-size="10" fill="{DIM}">{lab}</text>')
 
-# cells
-maxdelay = 0.0
+# cells (static — no reveal animation; GitHub rasterizes animated SVGs at t=0 and would show empty)
 for col, wk in enumerate(weeks):
     for row in range(7):
         day = wk[row]
@@ -90,12 +79,10 @@ for col, wk in enumerate(weeks):
         if not day:
             continue
         color = PALETTE[min(day["level"], 4)]
-        delay = round(0.15 + (col + row) * 0.016, 3)
-        maxdelay = max(maxdelay, delay)
         tip = f'{day["count"]} on {day["date"]}'
         out.append(
-            f'<rect class="c" x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
-            f'fill="{color}" style="animation-delay:{delay}s"><title>{tip}</title></rect>'
+            f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2.5" '
+            f'fill="{color}"><title>{tip}</title></rect>'
         )
 
 # footer: streak stats (left) + legend (right)
@@ -117,4 +104,4 @@ out.append(f'<text x="{lx + 5*13 + 4}" y="{fy}" font-size="11" fill="{DIM}">More
 
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))
-print(f"wrote {OUT}  svg {W}x{H}  weeks={nweeks}  last-reveal={maxdelay:.2f}s")
+print(f"wrote {OUT}  svg {W}x{H}  weeks={nweeks}  static")
