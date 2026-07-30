@@ -1,0 +1,10 @@
+# local-only preview / build artifacts
+_preview.html
+README.old.md
+.venv/
+__pycache__/
+*.pyc
+
+# keep the raw headshot OUT of the public repo — only the derived ASCII SVG is published
+source-photo.jpg
+source-prepped.png

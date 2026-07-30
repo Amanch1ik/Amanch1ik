@@ -1,0 +1,10 @@
+# Daily automation (CI) needs only these two:
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# Portrait pipeline — run locally only when you change your photo:
+#   pillow
+#   numpy
+#   opencv-python-headless
+#   rembg
+#   onnxruntime
