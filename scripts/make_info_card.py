@@ -56,14 +56,23 @@ out = [
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
 if not STATIC:
+    CBAND = round(0.22 * W)
+    CSWEEP = W + CBAND
     out.append(
         '<style>'
+        # spring line-by-line reveal (TRANSFORM only, opacity always 1) + looping light sweep.
+        # Static-poster contexts still show every line -> never blank.
         '@keyframes sl{from{transform:translateX(-10px)}to{transform:none}}'
-        # TRANSFORM-only reveal (opacity always 1): animates line-by-line where supported,
-        # never blank in a static-poster context (worst case: a few px shifted)
-        '.r{animation:sl .34s cubic-bezier(.3,0,.2,1) both}'
-        '@media(prefers-reduced-motion:reduce){.r{animation:none}}'
+        f'@keyframes csh{{0%{{transform:translateX(0) skewX(-14deg)}}28%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({CSWEEP}px) skewX(-14deg)}}}}'
+        '.r{animation:sl .44s cubic-bezier(.34,1.32,.5,1) both}'
+        '.cshine{animation:csh 5.5s cubic-bezier(.5,0,.25,1) 1s infinite}'
+        '@media(prefers-reduced-motion:reduce){.r,.cshine{animation:none}}'
         '</style>'
+        '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">'
+        '<stop offset="0" stop-color="#58a6ff" stop-opacity="0"/>'
+        '<stop offset="0.5" stop-color="#58a6ff" stop-opacity="0.12"/>'
+        '<stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>'
+        f'</linearGradient><clipPath id="cw"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14"/></clipPath></defs>'
     )
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
@@ -118,6 +127,11 @@ for r in range(2):
         out.append(f'<rect x="{x}" y="{yy:.1f}" width="{sq}" height="{sq}" rx="3" fill="{ANSI[c]}" opacity="{op}"/>')
 out.append('</g>')
 
+if not STATIC:
+    out.append(
+        f'<rect class="cshine" clip-path="url(#cw)" x="{-CBAND}" y="{-0.1*H:.0f}" '
+        f'width="{CBAND}" height="{1.2*H:.0f}" fill="url(#g)"/>'
+    )
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))
 print(f"wrote {OUT}  svg {W}x{H}  static={STATIC}")

@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="754" height="886" viewBox="0 0 754 886" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<style>@keyframes ln{from{transform:translateX(-9px)}to{transform:none}}text.l{animation:ln .3s ease-out both}@media(prefers-reduced-motion:reduce){text.l{animation:none}}</style>
+<style>@keyframes ln{from{transform:translateY(-7px) scale(.99)}to{transform:none}}@keyframes shine{0%{transform:translateX(0) skewX(-14deg)}30%{transform:translateX(1010px) skewX(-14deg)}100%{transform:translateX(1010px) skewX(-14deg)}}text.l{animation:ln .55s cubic-bezier(.34,1.32,.5,1) both}.shine{animation:shine 5s cubic-bezier(.5,0,.25,1) .6s infinite}@media(prefers-reduced-motion:reduce){text.l,.shine{animation:none}}</style>
+<defs><linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.13"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient><clipPath id="pw"><rect width="754" height="886" rx="14"/></clipPath></defs>
 <rect width="754" height="886" rx="14" fill="#0d1117"/>
 <text class="l" style="animation-delay:0.03s" x="26.0" y="47.55" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">                                 .```::::```...`         ..</text>
 <text class="l" style="animation-delay:0.06s" x="26.0" y="61.59" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">                              .`:-====++++++=--:````````:::`.</text>
@@ -60,4 +61,5 @@
 <text class="l" style="animation-delay:1.71s" x="26.0" y="833.79" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">:*:=--===-*-*-==-+:+:+:+-=-+-c+--`-.*+c+*+++++=+=++==-=+=*+``:::+%*-=-:::-==+===-+-*=+=+=+</text>
 <text class="l" style="animation-delay:1.74s" x="26.0" y="847.83" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">=+:+:+-+-++=*:+-==-+:+:+-+-+:++*-`-`*+c+*+=*=+-+-+=*+==+=c+```:-s#=-::-==+=+-==-=-*=*-+=++</text>
 <text class="l" style="animation-delay:1.77s" x="26.0" y="861.87" xml:space="preserve" font-size="13" fill="#adbac7" letter-spacing="0.000">++:+:+:+:+-++-*:+-==:+:+:+-+:+:**:-`c+c++*=*=*-+:+:++c+++*c:``:*%+---=:+-+-=-+=-===+-+==+=</text>
+<rect class="shine" clip-path="url(#pw)" x="-166" y="-133" width="166" height="1152" fill="url(#sh)"/>
 </svg>

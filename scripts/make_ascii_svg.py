@@ -46,15 +46,26 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
-# Row-by-row reveal via TRANSFORM only (never opacity/clip to zero). Browsers that animate
-# <img> SVGs print the portrait line by line; any static-poster context shows the whole
-# portrait, at most shifted a few px — never blank.
+# Row-by-row spring reveal via TRANSFORM only (never opacity/clip to zero) + a one-time
+# diagonal shine that sweeps across once. Browsers that animate <img> SVGs print the portrait
+# line by line and get the shine; any static-poster context shows the whole portrait (at most
+# shifted a few px, shine parked off-frame) — never blank.
+SWEEP = round(W + 0.34 * W)
 out.append(
     '<style>'
-    '@keyframes ln{from{transform:translateX(-9px)}to{transform:none}}'
-    'text.l{animation:ln .3s ease-out both}'
-    '@media(prefers-reduced-motion:reduce){text.l{animation:none}}'
+    '@keyframes ln{from{transform:translateY(-7px) scale(.99)}to{transform:none}}'
+    f'@keyframes shine{{0%{{transform:translateX(0) skewX(-14deg)}}30%{{transform:translateX({SWEEP}px) skewX(-14deg)}}100%{{transform:translateX({SWEEP}px) skewX(-14deg)}}}}'
+    'text.l{animation:ln .55s cubic-bezier(.34,1.32,.5,1) both}'
+    '.shine{animation:shine 5s cubic-bezier(.5,0,.25,1) .6s infinite}'
+    '@media(prefers-reduced-motion:reduce){text.l,.shine{animation:none}}'
     '</style>'
+)
+out.append(
+    '<defs><linearGradient id="sh" x1="0" y1="0" x2="1" y2="0">'
+    '<stop offset="0" stop-color="#ffffff" stop-opacity="0"/>'
+    '<stop offset="0.5" stop-color="#ffffff" stop-opacity="0.13"/>'
+    '<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>'
+    f'</linearGradient><clipPath id="pw"><rect width="{W}" height="{H}" rx="14"/></clipPath></defs>'
 )
 out.append(f'<rect width="{W}" height="{H}" rx="14" fill="{BG}"/>')
 
@@ -68,6 +79,13 @@ for i, line in enumerate(lines):
         f'xml:space="preserve" font-size="{FS}" fill="{INK}" '
         f'letter-spacing="{CHARW - FS*0.6:.3f}">{esc(line)}</text>'
     )
+
+# diagonal shine band, parked off the left edge; sweeps across once (accent, not content)
+band = round(0.22 * W)
+out.append(
+    f'<rect class="shine" clip-path="url(#pw)" x="{-band}" y="{-0.15*H:.0f}" '
+    f'width="{band}" height="{1.3*H:.0f}" fill="url(#sh)"/>'
+)
 
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))

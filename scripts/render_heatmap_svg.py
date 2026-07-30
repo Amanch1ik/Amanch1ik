@@ -39,15 +39,25 @@ out = [
     f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
     f'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">'
 ]
+HBAND = round(0.18 * W)
+HSWEEP = W + HBAND
 out.append(
     '<style>'
-    # diagonal reveal via TRANSFORM only (opacity always 1): cells slide down where the
-    # browser animates <img> SVGs; a static-poster context shows the full grid (at most
-    # shifted a few px) — never blank.
-    '@keyframes pop{from{transform:translateY(-6px)}to{transform:none}}'
-    'rect.c{animation:pop .5s cubic-bezier(.4,0,.2,1) both;transform-box:fill-box}'
-    '@media(prefers-reduced-motion:reduce){rect.c{animation:none}}'
+    # diagonal spring pop via TRANSFORM only (opacity always 1) + a looping light sweep.
+    # Static-poster contexts show the full grid (at most a few px / slightly scaled) — never blank.
+    '@keyframes pop{from{transform:translateY(-5px) scale(.8)}to{transform:none}}'
+    f'@keyframes hsh{{0%{{transform:translateX(0) skewX(-14deg)}}28%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}100%{{transform:translateX({HSWEEP}px) skewX(-14deg)}}}}'
+    'rect.c{animation:pop .5s cubic-bezier(.34,1.4,.5,1) both;transform-box:fill-box;transform-origin:center}'
+    '.hshine{animation:hsh 5.5s cubic-bezier(.5,0,.25,1) .9s infinite}'
+    '@media(prefers-reduced-motion:reduce){rect.c,.hshine{animation:none}}'
     '</style>'
+)
+out.append(
+    '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0">'
+    '<stop offset="0" stop-color="#39d353" stop-opacity="0"/>'
+    '<stop offset="0.5" stop-color="#39d353" stop-opacity="0.16"/>'
+    '<stop offset="1" stop-color="#39d353" stop-opacity="0"/>'
+    f'</linearGradient><clipPath id="win"><rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14"/></clipPath></defs>'
 )
 out.append(f'<rect x="0.5" y="0.5" width="{W-1}" height="{H-1}" rx="14" fill="{BG}" stroke="{BORDER}"/>')
 
@@ -113,6 +123,11 @@ for i, c in enumerate(PALETTE):
     out.append(f'<rect x="{lx + i*13}" y="{fy-9}" width="11" height="11" rx="2.5" fill="{c}"/>')
 out.append(f'<text x="{lx + 5*13 + 4}" y="{fy}" font-size="11" fill="{DIM}">More</text>')
 
+# looping light sweep (accent overlay, parked off-frame at rest -> never blank)
+out.append(
+    f'<rect class="hshine" clip-path="url(#win)" x="{-HBAND}" y="{-0.1*H:.0f}" '
+    f'width="{HBAND}" height="{1.2*H:.0f}" fill="url(#g)"/>'
+)
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))
 print(f"wrote {OUT}  svg {W}x{H}  weeks={nweeks}  static")
