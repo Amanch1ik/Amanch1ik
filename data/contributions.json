@@ -1,7 +1,7 @@
 {
  "username": "Amanch1ik",
- "total": 5355,
- "current_streak": 66,
+ "total": 5418,
+ "current_streak": 67,
  "longest_streak": 113,
  "best_day": {
   "date": "2026-01-30",
@@ -1940,10 +1940,14 @@
    },
    {
     "date": "2026-09-14",
-    "level": 3,
-    "count": 42
+    "level": 4,
+    "count": 60
    },
-   null,
+   {
+    "date": "2026-09-15",
+    "level": 3,
+    "count": 45
+   },
    null,
    null,
    null,
