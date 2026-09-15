@@ -10,7 +10,7 @@
 <text x="26" y="76.6" font-size="15" fill="#6e7681" class="r" style="animation-delay:0.09s" xml:space="preserve">──────────────────────────────────────────────</text>
 <text x="26" y="102.4" font-size="15" class="r" style="animation-delay:0.18s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Role:     </tspan><tspan fill="#c9d1d9">Fullstack Developer</tspan></text>
 <text x="26" y="128.2" font-size="15" class="r" style="animation-delay:0.28s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Now:      </tspan><tspan fill="#c9d1d9">Building web · mobile · AI products</tspan></text>
-<text x="26" y="154.0" font-size="15" class="r" style="animation-delay:0.38s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Focus:    </tspan><tspan fill="#c9d1d9">Web · Mobile · Backend</tspan></text>
+<text x="26" y="154.0" font-size="15" class="r" style="animation-delay:0.38s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Focus:    </tspan><tspan fill="#c9d1d9">Frontend · Backend · Mobile</tspan></text>
 <text x="26" y="179.8" font-size="15" class="r" style="animation-delay:0.48s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Frontend: </tspan><tspan fill="#c9d1d9">React · TypeScript · Next.js · Vite</tspan></text>
 <text x="26" y="205.6" font-size="15" class="r" style="animation-delay:0.58s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Backend:  </tspan><tspan fill="#c9d1d9">FastAPI · Python · Node · Prisma</tspan></text>
 <text x="26" y="231.4" font-size="15" class="r" style="animation-delay:0.68s" xml:space="preserve"><tspan fill="#58a6ff" font-weight="600">Mobile:   </tspan><tspan fill="#c9d1d9">Expo · React Native</tspan></text>

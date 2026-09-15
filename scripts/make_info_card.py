@@ -27,7 +27,7 @@ TITLE = ("amanbol", "github")
 ROWS = [
     ("Role",    "Fullstack Developer"),
     ("Now",     "Building web · mobile · AI products"),
-    ("Focus",   "Web · Mobile · Backend"),
+    ("Focus",   "Frontend · Backend · Mobile"),
     ("Frontend", "React · TypeScript · Next.js · Vite"),
     ("Backend", "FastAPI · Python · Node · Prisma"),
     ("Mobile",  "Expo · React Native"),
