@@ -25,13 +25,13 @@ PADTOP  = 58
 TITLE = ("amanbol", "github")
 
 ROWS = [
-    ("Role",    "QA Engineer"),
-    ("Now",     "Manual + Automation testing"),
-    ("Focus",   "Web · Mobile · API"),
-    ("Types",   "Functional · Regression · E2E"),
-    ("Tools",   "Postman · Selenium · Playwright"),
-    ("Stack",   "Python · pytest · SQL"),
-    ("Track",   "Bug reports · Test cases · CI"),
+    ("Role",    "Fullstack Developer"),
+    ("Now",     "Building web · mobile · AI products"),
+    ("Focus",   "Web · Mobile · Backend"),
+    ("Frontend", "React · TypeScript · Next.js · Vite"),
+    ("Backend", "FastAPI · Python · Node · Prisma"),
+    ("Mobile",  "Expo · React Native"),
+    ("Infra",   "PostgreSQL · Docker · Telegram bots"),
     ("Based",   "Bishkek, Kyrgyzstan"),
     ("Links",   "Portfolio · LeetCode · Instagram"),
 ]
