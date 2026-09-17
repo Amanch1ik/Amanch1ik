@@ -25,13 +25,16 @@ PADTOP  = 58
 TITLE = ("amanbol", "github")
 
 ROWS = [
-    ("Role",    "Fullstack Developer"),
-    ("Now",     "Building web · mobile · AI products"),
-    ("Focus",   "Frontend · Backend · Mobile"),
-    ("Frontend", "React · TypeScript · Next.js · Vite"),
-    ("Backend", "FastAPI · Python · Node · Prisma"),
-    ("Mobile",  "Expo · React Native"),
-    ("Infra",   "PostgreSQL · Docker · Telegram bots"),
+    ("Role",    "Fullstack · AI Prompt Eng · QA"),
+    ("Langs",   "Python · TypeScript · Java · C#"),
+    ("Frontend", "React · Next.js · Vite · Tailwind · Zustand"),
+    ("3D/UI",   "Three.js · R3F · GSAP · Framer Motion"),
+    ("Backend", "FastAPI · Node.js · SQLAlchemy · Alembic"),
+    ("Mobile",  "Expo · React Native · Capacitor"),
+    ("AI",      "Claude · GPT · LangChain · RAG"),
+    ("QA",      "Playwright · Selenium · Postman · pytest"),
+    ("DB",      "PostgreSQL · MySQL · Redis"),
+    ("Infra",   "Docker · Cloudflare · Supabase"),
     ("Based",   "Bishkek, Kyrgyzstan"),
     ("Links",   "Portfolio · LeetCode · Instagram"),
 ]
