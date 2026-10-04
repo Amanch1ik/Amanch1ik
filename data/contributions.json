@@ -1,50 +1,13 @@
 {
  "username": "Amanch1ik",
- "total": 5999,
- "current_streak": 85,
+ "total": 6061,
+ "current_streak": 86,
  "longest_streak": 113,
  "best_day": {
   "date": "2026-01-30",
   "count": 108
  },
  "weeks": [
-  [
-   {
-    "date": "2025-09-28",
-    "level": 1,
-    "count": 2
-   },
-   {
-    "date": "2025-09-29",
-    "level": 1,
-    "count": 1
-   },
-   {
-    "date": "2025-09-30",
-    "level": 1,
-    "count": 4
-   },
-   {
-    "date": "2025-10-01",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-10-02",
-    "level": 1,
-    "count": 13
-   },
-   {
-    "date": "2025-10-03",
-    "level": 1,
-    "count": 3
-   },
-   {
-    "date": "2025-10-04",
-    "level": 1,
-    "count": 2
-   }
-  ],
   [
    {
     "date": "2025-10-05",
@@ -719,7 +682,7 @@
    },
    {
     "date": "2026-02-09",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -855,14 +818,14 @@
    },
    {
     "date": "2026-03-07",
-    "level": 3,
+    "level": 2,
     "count": 39
    }
   ],
   [
    {
     "date": "2026-03-08",
-    "level": 3,
+    "level": 2,
     "count": 40
    },
    {
@@ -877,12 +840,12 @@
    },
    {
     "date": "2026-03-11",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
     "date": "2026-03-12",
-    "level": 3,
+    "level": 2,
     "count": 39
    },
    {
@@ -909,12 +872,12 @@
    },
    {
     "date": "2026-03-17",
-    "level": 3,
+    "level": 2,
     "count": 39
    },
    {
     "date": "2026-03-18",
-    "level": 3,
+    "level": 2,
     "count": 40
    },
    {
@@ -1010,7 +973,7 @@
   [
    {
     "date": "2026-04-05",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -1849,7 +1812,7 @@
    },
    {
     "date": "2026-09-11",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -1866,7 +1829,7 @@
    },
    {
     "date": "2026-09-14",
-    "level": 4,
+    "level": 3,
     "count": 60
    },
    {
@@ -1940,7 +1903,7 @@
    },
    {
     "date": "2026-09-28",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -1955,19 +1918,32 @@
    },
    {
     "date": "2026-10-01",
-    "level": 1,
-    "count": 10
+    "level": 2,
+    "count": 23
    },
    {
     "date": "2026-10-02",
-    "level": 2,
-    "count": 21
+    "level": 4,
+    "count": 62
    },
    {
     "date": "2026-10-03",
     "level": 3,
-    "count": 48
+    "count": 53
    }
+  ],
+  [
+   {
+    "date": "2026-10-04",
+    "level": 1,
+    "count": 3
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  ]
 }
