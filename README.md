@@ -34,55 +34,55 @@ Approximately 6 months of QA experience, including functional and regression tes
 <table width="100%">
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>Course Platform</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>Course Platform</b><br/>
 <sub>EdTech · Contributor · 2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat&amp;logo=nestjs&amp;logoColor=white" alt="NestJS" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Aiden Voice Assistant</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Aiden Voice Assistant</b><br/>
 <sub>AI / Voice Assistant · Author · 2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>MMORPG Telegram Bot</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>MMORPG Telegram Bot</b><br/>
 <sub>Game / Telegram · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/aiogram-26A5E4?style=flat&amp;logo=telegram&amp;logoColor=white" alt="aiogram" height="20"/><br/>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Reklama AI Generator</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Reklama AI Generator</b><br/>
 <sub>AI / SaaS · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" height="20"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&amp;logo=docker&amp;logoColor=white" alt="Docker" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Face Emotion Detection</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Face Emotion Detection</b><br/>
 <sub>AI / Computer Vision · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&amp;logo=tensorflow&amp;logoColor=white" alt="TensorFlow" height="20"/><br/>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>SilkRoute AI Agent</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>SilkRoute AI Agent</b><br/>
 <sub>AI / Agents · Author · 2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Backend</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Backend</b><br/>
 <sub>Mobility / Backend · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI" height="20"/><br/>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Web App</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Yess!Go Web App</b><br/>
 <sub>Mobility / Frontend · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess!Go Mobile App</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>Yess!Go Mobile App</b><br/>
 <sub>Mobility / Mobile · Contributor · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React%20Native-30363D?style=flat" alt="React Native" height="20"/><br/>
 </td>
@@ -101,26 +101,26 @@ Approximately 6 months of QA experience, including functional and regression tes
 <br/><a href="https://github.com/inspireVictim/Yess-go-v2"><img src="https://img.shields.io/badge/GitHub-1F2937?style=flat&amp;logo=github&amp;logoColor=white&amp;labelColor=0D1117" alt="GitHub" height="20"/></a>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech Admin Panel</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech Admin Panel</b><br/>
 <sub>Admin Panel · Contributor · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech User Web</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <img src="https://img.shields.io/badge/-Contributor-0D1117?style=flat&amp;logo=git&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Contributor" height="18"/> <b>PrimeTech User Web</b><br/>
 <sub>Web App · Contributor · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/> <img src="https://img.shields.io/badge/React-20232A?style=flat&amp;logo=react&amp;logoColor=61DAFB" alt="React" height="20"/><br/>
 </td>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Ads Launcher</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Ads Launcher</b><br/>
 <sub>Marketing Tools · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" height="20"/><br/>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top" height="130">
-<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;logo=lock&amp;logoColor=4FC3F7&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Automation &amp; Attendance Scripts</b><br/>
+<img src="https://img.shields.io/badge/-Private-0D1117?style=flat&amp;labelColor=0D1117" alt="Private" height="18"/> <b>Automation &amp; Attendance Scripts</b><br/>
 <sub>Automation / Telegram · Author · 2025-2026</sub><br/><br/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat&amp;logo=python&amp;logoColor=white" alt="Python" height="20"/> <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&amp;logo=telegram&amp;logoColor=white" alt="Telegram" height="20"/><br/>
 </td>
