@@ -15,6 +15,7 @@ Optional override file `projects.yml`:
 from __future__ import annotations
 
 import json
+from html import escape
 import os
 import re
 import sys
@@ -164,7 +165,7 @@ LINK_ICONS: dict[str, str] = {
 
 LOCK_ICON = (
     "https://img.shields.io/badge/-Private-0D1117?style=flat"
-    "&logo=lock&logoColor=4FC3F7&labelColor=0D1117"
+    "&labelColor=0D1117"
 )
 CONTRIB_ICON = (
     "https://img.shields.io/badge/-Contributor-0D1117?style=flat"
@@ -332,7 +333,7 @@ def tech_badge(name: str) -> str:
         display, bg, fg, logo = TECH[key]
         url = (f"https://img.shields.io/badge/{display}-{bg}?style=flat"
                f"&logo={urllib.parse.quote(logo)}&logoColor={urllib.parse.quote(fg)}")
-        return f'<img src="{url}" alt="{name}" height="20"/>'
+        return f'<img src="{escape(url, quote=True)}" alt="{escape(name, quote=True)}" height="20"/>'
     safe = name.strip().replace(" ", "%20")
     return f'<img src="https://img.shields.io/badge/{safe}-30363D?style=flat" alt="{name}" height="20"/>'
 
@@ -341,7 +342,7 @@ def link_badge(label: str, url: str) -> str:
     logo = LINK_ICONS.get(label.strip().lower(), "googlechrome")
     badge_url = (f"https://img.shields.io/badge/{urllib.parse.quote(label)}-1F2937?style=flat"
                  f"&logo={urllib.parse.quote(logo)}&logoColor=white&labelColor=0D1117")
-    return f'<a href="{url}" target="_blank"><img src="{badge_url}" alt="{label}" height="20"/></a>'
+    return f'<a href="{escape(url, quote=True)}"><img src="{escape(badge_url, quote=True)}" alt="{escape(label, quote=True)}" height="20"/></a>'
 
 
 def render_cell(p: dict) -> str:
@@ -354,17 +355,17 @@ def render_cell(p: dict) -> str:
 
     title_icons: list[str] = []
     if private:
-        title_icons.append(f'<img src="{LOCK_ICON}" alt="Private" height="18"/>')
+        title_icons.append(f'<img src="{escape(LOCK_ICON, quote=True)}" alt="Private" height="18"/>')
     if contributor:
-        title_icons.append(f'<img src="{CONTRIB_ICON}" alt="Contributor" height="18"/>')
+        title_icons.append(f'<img src="{escape(CONTRIB_ICON, quote=True)}" alt="Contributor" height="18"/>')
 
     parts = [f'<td width="50%" valign="top" height="{CARD_HEIGHT}">']
-    title = f"<b>{name}</b>"
+    title = f"<b>{escape(name)}</b>"
     if title_icons:
         title = " ".join(title_icons) + " " + title
     parts.append(title + "<br/>")
     if meta:
-        parts.append(f"<sub>{meta}</sub><br/><br/>")
+        parts.append(f"<sub>{escape(meta)}</sub><br/><br/>")
     if stack:
         parts.append(" ".join(tech_badge(t) for t in stack) + "<br/>")
     if links:
