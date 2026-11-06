@@ -2,7 +2,7 @@
 
 <h3><code>amanbol@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./contrib-heatmap.svg?v=6" width="860" alt="Contribution graph — refreshed daily" />
+<img src="./contrib-heatmap.png" width="860" alt="Contribution graph — refreshed daily" />
 
 <br><br>
 

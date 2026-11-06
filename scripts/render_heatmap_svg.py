@@ -4,6 +4,7 @@ slide in diagonally on load, then freeze. CSS keyframes live inside the SVG, so 
 """
 import json
 from datetime import datetime
+import cairosvg
 
 DATA = "data/contributions.json"
 OUT = "contrib-heatmap.svg"
@@ -135,4 +136,5 @@ out.append(
 )
 out.append('</svg>')
 open(OUT, "w").write("\n".join(out))
+cairosvg.svg2png(bytestring="\n".join(out).encode("utf-8"), write_to="contrib-heatmap.png", output_width=W * 2, output_height=H * 2)
 print(f"wrote {OUT}  svg {W}x{H}  weeks={nweeks}  static")
