@@ -22,6 +22,8 @@ MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
 d = json.load(open(DATA))
 weeks = d["weeks"]
 nweeks = len(weeks)
+if nweeks < 40:
+    raise ValueError(f"Expected a full contribution calendar, got {nweeks} week(s)")
 
 grid_w = nweeks * STEP - GAP
 grid_h = 7 * STEP - GAP

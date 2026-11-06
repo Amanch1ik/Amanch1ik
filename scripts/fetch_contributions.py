@@ -14,11 +14,13 @@ USER = os.environ.get("GH_USER", "Amanch1ik")
 OUT = "data/contributions.json"
 
 url = f"https://github.com/users/{USER}/contributions"
-html = requests.get(
+response = requests.get(
     url,
     headers={"User-Agent": "Mozilla/5.0", "X-Requested-With": "XMLHttpRequest"},
     timeout=25,
-).text
+)
+response.raise_for_status()
+html = response.text
 soup = BeautifulSoup(html, "html.parser")
 
 # count per day id, from the <tool-tip> elements ("N contributions on ..." / "No contributions...")
@@ -52,6 +54,15 @@ weeks = []
 for col in range(max_col + 1):
     week = [grid.get(col, {}).get(row) for row in range(7)]
     weeks.append(week)
+
+# GitHub can occasionally return a partial anti-bot or transient response.
+# Never let that replace a full year's graph with a broken tiny SVG in CI.
+day_count = sum(1 for week in weeks for day in week if day)
+if len(weeks) < 40 or day_count < 280:
+    raise RuntimeError(
+        f"Incomplete contribution calendar: weeks={len(weeks)} days={day_count}; "
+        "keeping the existing profile art."
+    )
 
 days = sorted(
     (d for wk in weeks for d in wk if d),
