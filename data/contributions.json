@@ -1,50 +1,13 @@
 {
  "username": "Amanch1ik",
- "total": 6623,
- "current_streak": 127,
- "longest_streak": 127,
+ "total": 6663,
+ "current_streak": 128,
+ "longest_streak": 128,
  "best_day": {
   "date": "2026-01-30",
   "count": 108
  },
  "weeks": [
-  [
-   {
-    "date": "2025-11-09",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-11-10",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-11-11",
-    "level": 1,
-    "count": 1
-   },
-   {
-    "date": "2025-11-12",
-    "level": 1,
-    "count": 2
-   },
-   {
-    "date": "2025-11-13",
-    "level": 1,
-    "count": 1
-   },
-   {
-    "date": "2025-11-14",
-    "level": 0,
-    "count": 0
-   },
-   {
-    "date": "2025-11-15",
-    "level": 0,
-    "count": 0
-   }
-  ],
   [
    {
     "date": "2025-11-16",
@@ -1966,8 +1929,21 @@
    {
     "date": "2026-11-14",
     "level": 1,
-    "count": 7
+    "count": 18
    }
+  ],
+  [
+   {
+    "date": "2026-11-15",
+    "level": 2,
+    "count": 29
+   },
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
   ]
  ]
 }
