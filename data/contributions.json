@@ -1,8 +1,8 @@
 {
  "username": "Amanch1ik",
- "total": 6676,
- "current_streak": 129,
- "longest_streak": 129,
+ "total": 6747,
+ "current_streak": 130,
+ "longest_streak": 130,
  "best_day": {
   "date": "2026-01-30",
   "count": 108
@@ -460,7 +460,7 @@
    },
    {
     "date": "2026-02-09",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -596,14 +596,14 @@
    },
    {
     "date": "2026-03-07",
-    "level": 3,
+    "level": 2,
     "count": 39
    }
   ],
   [
    {
     "date": "2026-03-08",
-    "level": 3,
+    "level": 2,
     "count": 40
    },
    {
@@ -618,12 +618,12 @@
    },
    {
     "date": "2026-03-11",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
     "date": "2026-03-12",
-    "level": 3,
+    "level": 2,
     "count": 39
    },
    {
@@ -650,12 +650,12 @@
    },
    {
     "date": "2026-03-17",
-    "level": 3,
+    "level": 2,
     "count": 39
    },
    {
     "date": "2026-03-18",
-    "level": 3,
+    "level": 2,
     "count": 40
    },
    {
@@ -751,7 +751,7 @@
   [
    {
     "date": "2026-04-05",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -1590,7 +1590,7 @@
    },
    {
     "date": "2026-09-11",
-    "level": 2,
+    "level": 1,
     "count": 20
    },
    {
@@ -1607,7 +1607,7 @@
    },
    {
     "date": "2026-09-14",
-    "level": 4,
+    "level": 3,
     "count": 60
    },
    {
@@ -1639,7 +1639,7 @@
   [
    {
     "date": "2026-09-20",
-    "level": 4,
+    "level": 3,
     "count": 59
    },
    {
@@ -1760,7 +1760,7 @@
    },
    {
     "date": "2026-10-13",
-    "level": 3,
+    "level": 2,
     "count": 40
    },
    {
@@ -1923,27 +1923,31 @@
    },
    {
     "date": "2026-11-13",
-    "level": 1,
-    "count": 17
+    "level": 3,
+    "count": 44
    },
    {
     "date": "2026-11-14",
-    "level": 1,
-    "count": 18
+    "level": 2,
+    "count": 24
    }
   ],
   [
    {
     "date": "2026-11-15",
-    "level": 2,
-    "count": 37
+    "level": 3,
+    "count": 60
    },
    {
     "date": "2026-11-16",
     "level": 1,
-    "count": 9
+    "count": 16
    },
-   null,
+   {
+    "date": "2026-11-17",
+    "level": 1,
+    "count": 8
+   },
    null,
    null,
    null,
